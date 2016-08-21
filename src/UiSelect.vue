@@ -178,7 +178,7 @@ export default {
         },
 
         hasDisplayText() {
-            return this.displayText && Boolean(this.displayText.length);
+            return this.displayText && Boolean(this.displayText.toString().length);
         },
 
         showIcon() {
