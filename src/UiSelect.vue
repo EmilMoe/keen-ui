@@ -454,7 +454,7 @@ export default {
             const i = looseIndexOf(this.value, option);
 
             if (options.select && i < 0) {
-                value = this.value.concat(option);
+                value = this.value.toString().concat(option);
                 updated = true;
             }
 
